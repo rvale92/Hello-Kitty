@@ -6,7 +6,8 @@
 
 body {
     font-family: 'Arial', sans-serif;
-    background: url('../Background/cute-pink-hello-kitty-hearts-wallpaper-art-g8k48d4gb7d27u3g.webp') center center/cover fixed;
+    background: url('../Background/hello-kitty-pattern.jpg') repeat;
+    background-size: 300px;
     min-height: 100vh;
     display: flex;
     justify-content: center;
@@ -15,14 +16,15 @@ body {
 }
 
 .game-container {
-    background: rgba(255, 255, 255, 0.92);
+    background: rgba(255, 255, 255, 0.95);
     padding: clamp(1rem, 3vw, 2rem);
     border-radius: 20px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.15);
     position: relative;
     width: min(90%, 800px);
     margin: auto;
-    backdrop-filter: blur(5px);
+    backdrop-filter: blur(3px);
+    border: 2px solid rgba(255, 105, 180, 0.3);
 }
 
 h1 {
