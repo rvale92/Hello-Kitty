@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello Kitty Matching Game</title>
+    <link rel="stylesheet" href="Matching-Game/matching.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+</head>
+<body>
+    <div class="game-container">
+        <div class="corner-images">
+            <img src="Corner-Images/corner1.png" class="corner top-left" alt="Hello Kitty Corner">
+            <img src="Corner-Images/corner2.png" class="corner top-right" alt="Hello Kitty Corner">
+            <img src="Corner-Images/corner3.png" class="corner bottom-left" alt="Hello Kitty Corner">
+            <img src="Corner-Images/corner4.png" class="corner bottom-right" alt="Hello Kitty Corner">
+        </div>
+        <h1>Hello Kitty Matching Game</h1>
+        <div id="game-board"></div>
+        <div class="score-panel">
+            <span class="moves">0</span> Moves
+            <div class="timer">Time: <span class="minutes">0</span>:<span class="seconds">00</span></div>
+            <button class="restart-button">Restart Game</button>
+        </div>
+    </div>
+    <script src="Matching-Game/matching.js"></script>
+</body>
+</html> 
