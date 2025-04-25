@@ -2,6 +2,8 @@
 
 A fun and interactive memory matching game featuring Hello Kitty! Test your memory by matching pairs of Hello Kitty cards.
 
+🎮 [Play the Game](https://rvale92.github.io/Hello-Kitty/)
+
 ## Features
 
 - 4x4 grid of cards
